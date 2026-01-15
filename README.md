@@ -63,6 +63,8 @@ The project combines exploratory data analysis, customer segmentation, and machi
 
 ## Model Performance
 - The **Random Forest model** outperformed Logistic Regression
+- Random Forest Accuracy: 72.1% (optimized for recall)
+- Catches 64.6% of actual churners vs 46.2% with the baseline model
 - Random Forest produced a **lower false negative rate**, which is critical in churn prediction because failing to identify a customer who will leave results in lost revenue
 - Feature importance analysis aligned with EDA findings, reinforcing model reliability
 
