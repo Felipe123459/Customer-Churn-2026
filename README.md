@@ -53,12 +53,12 @@ The project combines exploratory data analysis, customer segmentation, and machi
 ---
 
 ## Key Findings
-- **Age** is the strongest driver of customer churn
+- **Age** is the strongest predictor (0.23 feature importance), with customers 60+ showing 40% higher churn rates
 - **Inactive members** churn nearly **2× more** than active members
 - **Germany** exhibits the highest churn rate (~34%) despite a smaller customer base
 - Customers with **more products** are significantly less likely to churn
 - Customers near the **median salary range** show lower churn probability
-
+- Cluster 1 (younger, multi-product customers) shows **14.6%** churn vs 23-24% in other segments
 ---
 
 ## Model Performance
